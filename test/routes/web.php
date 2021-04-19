@@ -20,5 +20,4 @@ $router->get('/', function () use ($router) {
 
 $router->post('subscribe/{topic}', 'SubscriptionController@subscription');
 $router->post('publish/{topic}', 'SubscriptionController@publish');
-$router->post('/{test}', 'SubscriptionController@test');
 
